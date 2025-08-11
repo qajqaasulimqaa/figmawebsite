@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(35, 26, 119);
+    color: rgb(255, 255, 255);
+    width: auto; 
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+    font-style: italic;
+
+}
+a{
+    text-decoration: none;    
+}
+ul {
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    top: 0; 
+    align-items: center; 
+    width:  auto; 
+
+}
+
+
+#nav-links{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px; 
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+    align-items:end; 
+    }
+
+#kryptologo{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.hero{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px; 
+    align-items: center;
+
+}
+
+@media (max-width: 600px) 
+{
+    *{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
